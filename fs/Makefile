@@ -96,6 +96,7 @@ obj-$(CONFIG_HPFS_FS)		+= hpfs/
 obj-$(CONFIG_NTFS_FS)		+= ntfs/
 obj-$(CONFIG_UFS_FS)		+= ufs/
 obj-$(CONFIG_EFS_FS)		+= efs/
+obj-$(CONFIG_EXFT_FS)		+= exfatfs/
 obj-$(CONFIG_JFFS2_FS)		+= jffs2/
 obj-$(CONFIG_LOGFS)		+= logfs/
 obj-$(CONFIG_UBIFS_FS)		+= ubifs/
@@ -125,6 +126,7 @@ obj-$(CONFIG_GFS2_FS)           += gfs2/
 obj-y				+= exofs/ # Multiple modules
 obj-$(CONFIG_CEPH_FS)		+= ceph/
 obj-$(CONFIG_PSTORE)		+= pstore/
+obj-$(CONFIG_AUFS_FS)		+= aufs/
 
 # Patched by YAFFS
 obj-$(CONFIG_YAFFS_FS)		+= yaffs2/
